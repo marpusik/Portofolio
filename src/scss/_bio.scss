@@ -1,0 +1,116 @@
+h1 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  background: linear-gradient(134.01deg, #3BF686 40.75%, #4CA9FF 90.52%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 100px 0 63px 0;
+  max-width: 1029px;
+}
+.bio {
+  &__getting {
+    display: flex;
+  }
+  display: flex;
+  align-items: center;
+}
+h2 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  color: #FBFBFB;
+}
+p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.014em;
+  color: #D6D6D6;
+  max-width: 499px;
+}
+span {
+  color: #62D9FF;
+}
+.wrapp {
+  margin: 0 85px 0 36px;
+}
+.bio__lets--soc {
+  display: flex;
+  gap: 17px;
+}
+.what {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 115px 0 104px;
+}
+.build p {
+  max-width: 428px;
+}
+.web {
+  display: flex;
+  gap: 30px;
+  &__card {
+    width: 262px;
+    height: 190px;
+    background: #323443;
+    border-radius: 12px;
+    text-align: center;
+    position: relative;
+    &--img {
+      box-sizing: border-box;
+      width: 72px;
+      height: 72px;
+      background: linear-gradient(134.01deg, #3BF686 40.75%, #4CA9FF 90.52%);
+      border-radius: 50%;
+      position: absolute;
+      top: -20%;
+      left: 40%;
+      a{
+        width: 71px;
+        height: 71px;
+        background: #323443;
+        border-radius: 50%;
+        display: block;
+        img{
+          width: 29px;
+          padding-top: 18px;
+        }
+      }
+    }
+    p {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 26px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 1px;
+      color: rgba(239, 237, 232, 0.65);
+      padding: 0 19px;
+    }
+  }
+}
+h3 {
+  font-family: 'Sora';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  color: #FAFAF9;
+  margin-top: 56px;
+}
