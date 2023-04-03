@@ -1,4 +1,4 @@
-.featured h2{
+h2{
   font-family: 'Sora';
   font-style: normal;
   font-weight: 700;
@@ -12,4 +12,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.featured .btn{
+  margin: 42px 0 67px;
+}
+.featured__wrapper{
+  margin-bottom: 66px;
 }

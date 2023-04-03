@@ -1,0 +1,35 @@
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+.card {
+  width: 556px;
+  height: 282px;
+  background: linear-gradient(0deg, #323443, #323443), #EFF6FF;
+  border-radius: 20px;
+  padding: 25px 40px;
+  &__wrap {
+    @extend .flex__center;
+    padding-top: 86px;
+  }
+  &__inner {
+    @extend .flex__center;
+  }
+  &__icon img:first-child{
+    padding-right: 16px;
+  }
+}
+h5 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.014em;
+  color: #FFFFFF;
+
+}
+.code a{
+  margin: 34px 0 136px;
+}
