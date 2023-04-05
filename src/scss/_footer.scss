@@ -1,3 +1,32 @@
 .footer {
   border-top: 1px solid #4D4D4D;
+  & ul {
+    @extend .flex__center;
+    max-width: 591px;
+    margin: 96px auto 48px;
+    & li {
+      font-family: 'IBM Plex Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+      color: #F4F4F4;
+    }
+  }
+  & .other {
+    text-align: center;
+    & .icons{
+      padding: 16px 0 29px;
+      display: inline-flex;
+      gap: 32px;
+    }
+  }
+}
+h6 {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #F4F4F4;
 }

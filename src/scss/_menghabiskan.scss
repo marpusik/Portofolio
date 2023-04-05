@@ -1,0 +1,52 @@
+.menghabiskan {
+  margin-top: 113px;
+  @extend .flex__center
+}
+.inners {
+  display: flex;
+  max-width: 652px;
+  background: #323443;
+  border-radius: 12px;
+  padding: 35px 40px;
+  gap: 20px;
+}
+.inner {
+  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #C9C9C9;
+  }
+  &__wrap {
+    @extend .flex__center;
+    h4 {
+      margin: 0;
+      line-height: 24px;
+      padding-right: 55px;
+    }
+  }
+}
+.left a {
+  width: 262px;
+  margin: 13px 0 149px;
+}
+.right {
+  margin-top: -220px;
+}
+.two {
+  margin-top: -60px;
+  margin-left: 25px;
+  &:before {
+    content: "";
+    position: relative;
+    display: block;
+    margin-left: -25px;
+    top: 85px;
+    width: 5px;
+    height: 77px;
+    background: linear-gradient(180deg, #3BF686 0%, #4CA9FF 100%);
+  }
+}
