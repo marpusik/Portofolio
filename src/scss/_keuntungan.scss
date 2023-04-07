@@ -1,0 +1,28 @@
+.keuntungan {
+  display: flex;
+  &__right {
+    margin-left: 150px;
+  }
+}
+.right__card {
+  width: 655px;
+  height: 180px;
+  background: #323443;
+  border-radius: 12px;
+  position: relative;
+  padding: 0px 98px;
+  img {
+    position: absolute;
+    top: 30px;
+    left: -60px;
+  }
+  &:nth-child(2) {
+    margin: 38px 0;
+  }
+  &:nth-child(3) {
+    margin-bottom: 117px;
+  }
+}
+.left h2 {
+  margin-bottom: 80px;
+}
