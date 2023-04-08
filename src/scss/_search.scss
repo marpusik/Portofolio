@@ -1,0 +1,21 @@
+search {
+  h2 {
+    margin-top: 78px;
+  }
+  h4{
+    margin: 0 0 26px;
+  }
+  .box{
+    margin: 28px 0 46px;
+  }
+}
+label {
+  @extend .flex__center;
+  background: #3F4152;
+  border-radius: 10px;
+  padding: 26px 36px;
+}
+input {
+  background: #3F4152;
+  width: 100%;
+}
