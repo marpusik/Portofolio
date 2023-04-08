@@ -11,6 +11,9 @@
   border-radius: 12px;
   position: relative;
   padding: 0px 98px;
+  p {
+    max-width: 500px;
+  }
   img {
     position: absolute;
     top: 30px;
@@ -25,4 +28,46 @@
 }
 .left h2 {
   margin-bottom: 80px;
+}
+@media (max-width: $breakpoint992) {
+  .keuntungan {
+    display: block;
+    &__right {
+      margin-left: 0;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 100%;
+      text-align: center;
+      &__title {
+        margin-bottom: 30px;
+      }
+      &__text {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+    }
+  }
+  .right__card, .right__card:nth-child(2) {
+    width: 60%;
+    height: 0%;
+    padding: 50px 6px 20px;
+    margin: 100px auto 60px;
+    h3 {
+      font-size: 20px;
+      line-height: 40px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 25px;
+      margin: 0 auto;
+    }
+    img {
+      width: 85px;
+      top: -25%;
+      left: 38%;
+    }
+  }
+  .left-two {
+    text-align: center;
+  }
 }

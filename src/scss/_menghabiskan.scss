@@ -25,7 +25,7 @@
     h4 {
       margin: 0;
       line-height: 24px;
-      padding-right: 55px;
+      max-width: 130px;
     }
   }
 }
@@ -71,7 +71,31 @@
       display: none;
     }
   }
-  .inners{
+  .inners {
     display: block;
+    padding: 0px;
+    width: 400px;
+    padding: 0px 0 20px 34px;
+    margin-top: 20px;
+  }
+  .left {
+    max-width: 410px;
+    max-height: 500px;
+  }
+  .inner {
+    p {
+      max-width: 242px;
+    }
+    &__wrap {
+      display: block;
+      img {
+        position: relative;
+        right: 50px;
+        top: 50px;
+      }
+      h4 {
+        max-width: 150px;
+      }
+    }
   }
 }

@@ -1,7 +1,42 @@
-.project{
+.project {
   display: flex;
   margin-top: 72px;
-  h2{
+  h2 {
     margin-right: 30px;
+  }
+}
+@media (max-width: $breakpoint992) {
+  .featured, .project {
+    display: block;
+    & .btn{
+      display: none;
+    }
+  }
+  .project {
+    img {
+      display: none;
+    }
+    h2 {
+      text-align: center;
+      border-bottom: 1px solid #4D4D4D;
+      padding-bottom: 40px;
+      margin-bottom: 50px;
+      margin-right: -40px;
+    }
+  }
+  .wrap {
+    text-align: center;
+    flex-direction: column-reverse;
+    img{
+      width: 70%;
+    }
+    &__web {
+      & p {
+        margin: 0px auto 30px;
+      }
+    }
+  }
+  .featured{
+    padding-bottom: 150px;
   }
 }

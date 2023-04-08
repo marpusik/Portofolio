@@ -19,3 +19,23 @@ input {
   background: #3F4152;
   width: 100%;
 }
+@media (max-width: $breakpoint992) {
+  main{
+    padding-bottom: 150px;
+  }
+  search{
+    text-align: center;
+    padding-bottom: 150px;
+    h4{
+      border-bottom: 1px solid #4D4D4D;
+      padding-bottom: 25px;
+    }
+  }
+  .box{
+    justify-content: center;
+  }
+  label{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
